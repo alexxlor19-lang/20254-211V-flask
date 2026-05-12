@@ -1,5 +1,8 @@
-def main():
-    return "hello"
+# save this as app.py
+from flask import Flask
 
-def home():
-    return "Este es el home"
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello, World!"
