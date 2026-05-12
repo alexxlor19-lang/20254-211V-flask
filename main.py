@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-base_de_datos =["jorge", "pepe"; "juanita"] #Modelos
+base_de_datos =["jorge", "pepe", "juanita"] #Modelos
 
 @app.route("/") #Controlador
 def hello():
