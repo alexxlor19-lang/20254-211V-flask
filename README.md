@@ -3,7 +3,7 @@
 1.-Clonar el repositorio
 
 ```bash
-git clon https://github.com/alexxlor19-lang/20254-211V-flask.git
+git clone https://github.com/alexxlor19-lang/20254-211V-flask.git
 cd 20254-211V-flask/
 ```
 
