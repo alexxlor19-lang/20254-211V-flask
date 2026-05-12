@@ -7,4 +7,4 @@ base_de_datos =["jorge", "pepe", "juanita"] #Modelos
 
 @app.route("/index") #Controlador
 def hello():
-    return render_template(template_name_or_list="index.html") #View
+    return render_template(template_name_or_list="index.html", datos=base_de_datos)  #View
