@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 base_de_datos =["jorge", "pepe", "juanita"] #Modelos
 
-@app.route("/") #Controlador
+@app.route("/index") #Controlador
 def hello():
-    return render_template(template_name_or_lista="index.html") #View
+    return render_template(template_name_or_list="index.html") #View
